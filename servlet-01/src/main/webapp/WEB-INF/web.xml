@@ -6,11 +6,11 @@
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0"
          metadata-complete="true">
-<!--web.xml是我们配置web中的核心应用-->
+  <!--web.xml是我们配置web中的核心应用-->
   <!--注册servlet-->
   <servlet>
     <servlet-name>helloServlet</servlet-name>
-    <servlet-class>HelloServlet</servlet-class>
+    <servlet-class>com.yt.servlet.HelloServlet</servlet-class>
   </servlet>
   <!--一个servlet对应一个mapping-->
   <servlet-mapping>
